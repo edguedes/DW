@@ -1,0 +1,31 @@
+O processo de desenvolvimento de uma tela
+
+Existe hoje no mercado uma grande quantidade de empresas especializadas
+no desenvolvimento de sites e aplicações web, bem como algumas empresas
+de desenvolvimento de software ou agências de comunicação que têm pessoas
+capacitadas para executar esse tipo de projeto.
+
+Quando detectada a necessidade do desenvolvimento de um site ou aplicação
+web, a empresa que tem essa necessidade deve passar todas as informações
+relevantes ao projeto para a empresa que vai executá-lo. 
+A empresa responsável pelo seu desenvolvimento deve analisar muito bem 
+essas informações e utilizar pesquisas para complementar ou mesmo 
+certificar-se da validade dessas informações.
+
+Um projeto de site ou aplicação web envolve muitas disciplinas em sua 
+execução, pois são diversas características a serem analisadas e diversas
+as possibilidades apresentadas pela plataforma. Por exemplo, devemos 
+conhecer muito bem as características do público alvo, pois ele define 
+qual a melhor abordagem para definir a navegação, tom linguístico e 
+visual a ser adotado, entre outras. A afinidade do público com a 
+Internet e o computador pode inclusive definir o tipo e a intensidade 
+das inovações que podem ser utilizadas.
+
+Por isso, a primeira etapa do desenvolvimento do projeto fica a cargo 
+da área de User Experience Design (UX) ou Interaction Design (IxD), 
+normalmente composta de pessoas com formação na área de comunicação. 
+Essa equipe, ou pessoa, analisa e endereça uma série de informações da 
+característica humana do projeto, definindo a quantidade, conteúdo e 
+localização de cada informação.
+
+Algumas das motivações e práticas de Design de Interação e Experiência do Usuário são conteúdo do curso Design de Interação, Experiência do Usuário e Usabilidade. O resultado do trabalho dessa equipe é uma série de definições sobre a navegação (mapa do site) e um esboço de cada uma das visões, que são as páginas, e visões parciais como, por exemplo, os diálogos de alerta e confirmação da aplicação. Essas visões não adotam nenhum padrão de design gráfico: são utilizadas fontes, cores e imagens neutras, embora as informações escritas devam ser definidas nessa fase do projeto.
