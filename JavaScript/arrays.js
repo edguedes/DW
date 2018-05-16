@@ -122,4 +122,4 @@ var soma = numeros.reduce(function(somaAux, numero){
     return somaAux += numero;
 }, 0);
 
-console.log(soma);
+console.log(soma);  

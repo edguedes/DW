@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOM - getElementById</title>
+    
+</head>
+<body>
+    <!--Acessando pelo ID do elemento getElementById-->
+    <div id="time-pequeno">São Paulo</div>
+    <div id="time-grande">Flamengo</div>
+    
+    <!--Acessando pelo NAME da class getElementByClassName-->
+    <div class="cat">miau</div>
+    <div class="dog">auau</div>
+    
+    <!--Acessando pelo NAME da TAG getElementTagName-->
+    <br><br>
+    <form></form>
+    <button>Click</button>
+
+    <!--Acessando querySelector | Acessar apenas um elemento-->
+    <div id="teste1">ID</div>
+    <div class="teste2">CLASS</div>
+    <p>Paragrafo</p>
+
+
+ <script>
+    console.log(
+        document.getElementById("time-grande ")
+    )
+
+    console.log(
+        document.getElementsByClassName("cat")
+     )
+
+    console.log(
+        document.getElementsByTagName("button")[0].innerHTML
+    )
+
+    console.log(
+        //acessando pelo ID usa-se #
+        document.querySelector("#teste1")     
+    )
+    console.log(
+        //acessando uma CLASS usa-se .
+        document.querySelector(".teste2")     
+    )
+    console.log(
+        //acessando a tag 
+        document.querySelector("p")     
+    )
+ </script>   
+</body>
+</html>
