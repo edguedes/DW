@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Evento Java Script</title>
+    
+</head>
+<body>
+    
+    
+   <br>
+    Informe um valor: <input id="numero" type="text" >
+    <button id="btn1">CALCULAR</button><br> 
+    
+
+    <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Fórmula</th>
+                <th scope="col">Resultado</th>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Valor x 2:</td>
+                <td><label id="x2"></label></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Valor x² :</td>
+                <td><label id="x3"></label></td>                
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Valor 3x²+12x-4 :</td>
+                <td><label id="x4"></label></td>                
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Valor x+3 + √x :</td>
+                <td><label id="x5"></label></td>                
+                </tr>
+            </tbody>
+          </table>
+
+    <script>
+        
+        window.onload = function(){
+            console.log('Página carregada com sucesso!')
+        }
+        
+        // EVENTO ON CLICK
+        let botao = document.getElementById("btn1");
+        
+        
+        let a = document.getElementById('x2');
+        let b = document.getElementById('x3');
+        let c = document.getElementById('x4');
+        let d = document.getElementById('x5');
+
+        botao.addEventListener('click', function(){
+            //alert('cliquei o botão');
+            var num = document.getElementById("numero").value;
+            console.log("Numero: "+num);
+            a.innerText = Math.round((num * 2));
+            b.innerText = Math.round(Math.pow(num,2));
+            c.innerText = Math.round((3*(Math.pow(num,2)) + (12*num) - 4));
+            d.innerText = Math.round((num + 2) + Math.sqrt(num));
+        })
+
+        
+
+    </script>
+</body>
+</html>

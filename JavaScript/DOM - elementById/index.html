@@ -24,6 +24,10 @@
     <div id="teste1">ID</div>
     <div class="teste2">CLASS</div>
     <p>Paragrafo</p>
+    <br>
+
+    <!--AppendChild-->
+    <div id="Renault"></div>
 
 
  <script>
@@ -51,6 +55,30 @@
         //acessando a tag 
         document.querySelector("p")     
     )
+
+    console.log(
+        //criando Elementos do tipo DIV
+        document.createElement("div")
+    )
+
+    // criando um elemnt IMG dinamicamente
+    var img = document.createElement("img");
+        img.src="https://loremflickr.com/cache/resized/4671_39058495774_fec01d834d_320_240_nofilter.jpg";
+    console.log(img)
+
+    // Populando div com AppendChild
+    var sandero = document.createElement("p");
+        sandero.innerHTML = "Sandero";
+    var logan = document.createElement("p");
+        logan.innerHTML = "Logan";
+    
+    document.getElementById("Renault").appendChild(sandero);
+    document.getElementById("Renault").appendChild(logan);
+
+    // Remover o Filho
+
+    document.getElementById("Renault").removeChild(sandero);
+    
  </script>   
 </body>
 </html>
